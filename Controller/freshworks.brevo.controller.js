@@ -20,10 +20,10 @@ module.exports = {
                     'Content-Type': 'application/json'
                 },
                 params: {
-                    sort_type: 'asc', // Sort results in ascending order
+                    sort_type: 'desc', // Sort results in ascending order
                     sort_by: 'created_at', // Sort by the created_at field
                     page: page , // Fetch the first page of results
-                    per_page: 100, // Fetch 100 results per page
+                    per_page: 10, // Fetch 100 results per page
                     include: 'deals', // Include related deals in the response
                     updated_since: '2024-01-01T00:00:00Z' // Fetch records updated since this timestamp
                 }
